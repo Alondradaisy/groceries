@@ -13,14 +13,25 @@
             <h1>Grocery list</h1>
         </div>
         <div class="row">
-            <div class="col-8 offset-2">
-                <form>
+            <div id="hide-me" class="col-8 offset-2">
+                <form >
                     <div class="form-group">
                         <label for="formGroupExampleInput">Grocery list</label>
-                        <input type="text" class="form-control" id="groceryItem" placeholder="what do you need from the store?">
+                        <input type="text" class="item form-control" id="groceryItem1" placeholder="what do you need from the store?">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Grocery list</label>
+                        <input type="text" class="item form-control" id="groceryItem2" placeholder="what do you need from the store?">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Grocery list</label>
+                        <input type="text" class="item form-control" id="groceryItem3" placeholder="what do you need from the store?">
                     </div>
                     <button class="btn btn-primary btn-lg btn-block" type="submit" id="submitButton">Add</button>
                 </form>
+            </div>
+            <div id="show-me">
+                <button class="btn btn-primary btn-lg btn-block" id="bringListBack">Bring list back!</button>
             </div>
         </div>
         <div class="row">
