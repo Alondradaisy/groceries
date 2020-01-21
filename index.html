@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js" ></script>
+    <title>Groceries</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <h1>Grocery list</h1>
+        </div>
+        <div class="row">
+            <div class="col-8 offset-2">
+                <form>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Grocery list</label>
+                        <input type="text" class="form-control" id="groceryItem" placeholder="what do you need from the store?">
+                    </div>
+                    <button class="btn btn-primary btn-lg btn-block" type="submit" id="submitButton">Add</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div id="list">
+                    <ul id="list1">
+                    </ul>
+
+                </div>
+            </div>
+            <div class="col-6">
+                <div id="list">
+                    <ul id="list2">
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+  </body>
+</html>
